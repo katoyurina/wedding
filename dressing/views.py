@@ -31,3 +31,6 @@ def index(request):
 
 def index1(request):
     return render(request, 'dressing/index1.html')
+
+def index2(request):
+    return render(request, 'dressing/index2.html')
